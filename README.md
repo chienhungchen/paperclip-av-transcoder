@@ -24,6 +24,18 @@ And then execute:
 Or install it yourself as:
 
     $ gem install paperclip-av-transcoder
+    
+###Installation Notes:
+
+Remember to install ffmpeg (given, I know, but for a newcomer who doesn't know, this is important)
+
+#### OS X
+
+Using Homebrew worked the best for me. Direct install from ffmpeg.org did not work for me.
+
+    $ brew install ffmpeg
+
+TRYING THIS AT THE MOMENT: Also, remember to add `--with-openjpeg` if you want to have the thumbnail work as jpg.
 
 ## Usage
 
